@@ -1,0 +1,39 @@
+<div class="imgContainer">
+    <div class="formContainer col-md-4">
+        <h2>Welcome Back!</h2>
+        <form (ngSubmit)="login()">
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" [(ngModel)]="email" name="email" required>
+              <span class="error_message" *ngIf="errorEmailFormat">Invalid email format.</span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password" [(ngModel)]="password" name="password" required>
+                <span class="error_message" *ngIf="errorShortPassword">Password is required.</span>
+                <span class="error_message" *ngIf="errorIncorrectEmailPassword">Incorrect email or password</span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Log In</button>
+            </div>
+        <div id="g_id_onload"
+            data-client_id="603004714148-lfgq6ct7r0u7jitqbuclop5cpbo8il4j.apps.googleusercontent.com"
+            data-context="signin"
+            data-ux_mode="popup"
+            data-login_uri="http://localhost:4200/login"
+            data-callback="hendelOauthResponse"
+            data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+            data-type="icon"
+            data-shape="rectangular"
+            data-theme="outline"
+            data-text="signin_with"
+            data-size="large"
+            data-locale="en">
+        </div>
+        </form>
+        <p>Don't have an account? <a routerLink="/signup">Sign Up</a></p>
+    </div>
+</div>

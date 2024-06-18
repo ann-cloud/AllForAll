@@ -1,0 +1,115 @@
+<div class="loader" *ngIf="isLoading">
+    <div class="spinner"></div>
+</div>
+<div class="products-section" *ngIf="!isLoading">
+    <div class="section-info" *ngIf="section == 'categories'">
+        <h1>{{ category?.name }}</h1>
+        <p style="margin-bottom: 40px;">{{ category?.desc }}</p>
+    </div>
+    <div class="section-info" *ngIf="section == 'manufacturers'">
+        <h1>{{ manufacturer?.name }}</h1>
+        <p style="margin-bottom: 40px;">{{ manufacturer?.desc }}</p>
+    </div>
+    <div class="section-info" *ngIf="section == 'countries'">
+        <h1>{{ country }}</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="sidebar">
+                <div class="filter" *ngIf="section != 'categories'">
+                    <h5>Categories</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item" *ngFor="let category of categories">
+                            <input type="checkbox" [id]="'category' + category.categoryId" [value]="category.name"
+                                (change)="onCategoriesChange($event.target.value, $event.target.checked)">
+                            <label [for]="'category' + category.categoryId">{{ category.name }}</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter" *ngIf="section != 'manufacturers'">
+                    <h5>Manufacturers</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item" *ngFor="let manufacturer of manufacturers">
+                            <input type="checkbox" [id]="'manufacturer' + manufacturer.manufacturerId"
+                                [value]="manufacturer.name"
+                                (change)="onManufacturersChange($event.target.value, $event.target.checked)">
+                            <label [for]="'manufacturer' + manufacturer.manufacturerId">{{ manufacturer.name }}</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter" *ngIf="section != 'countries'">
+                    <h5>Countries</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item" *ngFor="let country of countries">
+                            <input type="checkbox" [id]="country" [value]="country"
+                                (change)="onCountriesChange($event.target.value, $event.target.checked)">
+                            <label [for]="country">{{ country }}</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter">
+                    <h5>Verification</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input type="checkbox" id="verification" #verification value="Is Verified"
+                                (change)="onVerificationChange()">
+                            <label for="verification">Is Verified</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="pagination-container">
+                <!-- Paginated list -->
+                <div class="row">
+                    <div class="col-md-4" *ngFor="let item of paginatedItems"
+                        [routerLink]="['/products', item.productId]">
+                        <div class="card mb-3">
+                            <img [src]="item.productPhotoLink" class="card-img-top" alt="product photo">
+                            <div class="card-body">
+                                <!-- Item title with verification icon -->
+                                <h5 class="card-title">
+                                    {{ item.productName }}
+                                    <span class="fas fa-check-circle text-success" *ngIf="item.isVerified"></span>
+                                </h5>
+                                <!-- Manufacturer -->
+                                <p class="card-text">{{ item.manufacturer.name }}</p>
+                                <!-- Star rating -->
+                                <div class="card-title">
+                                    <div class="ratingComments">
+                                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 1)}"></span>
+                                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 2)}"></span>
+                                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 3)}"></span>
+                                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 4)}"></span>
+                                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 5)}"></span>
+                                        <span> {{ countRating(item.feedbacks) | number:'1.1-2' }}</span>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <span class="far fa-comment-alt mr-2"></span>
+                                        <span> {{ item.feedbacks.length }}</span>
+                                    </div>
+                                </div>
+                                <!-- Comment icon -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination links -->
+                <nav aria-label="Page navigation" id="productPageNav">
+                    <ul class="pagination justify-content-center">
+                        <!-- Previous page link -->
+                        <li class="page-item" [class.disabled]="currentPage === 1">
+                            <a class="page-link" (click)="onPageChange(currentPage - 1)" tabindex="-1"
+                                aria-disabled="true">Previous</a>
+                        </li>
+                        <!-- Next page link -->
+                        <li class="page-item" [class.disabled]="currentPage === 2">
+                            <a class="page-link" (click)="onPageChange(currentPage + 1)">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>

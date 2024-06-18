@@ -1,0 +1,45 @@
+<div class="imgContainer">
+    <div class="formContainer col-md-4">
+        <h2>Get Started Now!</h2>
+        <form (ngSubmit)="register()">
+            <div class="form-group">
+                <label for="username">Name</label>
+                <input type="text" class="form-control" id="username" placeholder="Enter your name" [(ngModel)]="username" name="username" required>
+                <span class="error_message" *ngIf="errorShortUsername">Username must be at least 6 characters long.</span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" [(ngModel)]="email" name="email" required>
+                <span class="error_message" *ngIf="errorEmailFormat">Invalid email format.</span>
+                <span class="error_message" *ngIf="errorEmailUsed">Such email is used.</span>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password" [(ngModel)]="password" name="password" required>
+                <span class="error_message" *ngIf="errorShortPassword">Password must be at least 7 characters long.</span>
+              </div>  
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Sign Up</button>
+            </div>
+        <div id="g_id_onload"
+            data-client_id="603004714148-lfgq6ct7r0u7jitqbuclop5cpbo8il4j.apps.googleusercontent.com"
+            data-context="signin"
+            data-ux_mode="popup"
+            data-login_uri="http://localhost:4200/login"
+            data-callback="hendelOauthResponse"
+            data-auto_prompt="false">
+        </div>
+
+        <div class="g_id_signin"
+            data-type="icon"
+            data-shape="rectangular"
+            data-theme="outline"
+            data-text="signin_with"
+            data-size="large"
+            data-locale="en"
+            data-logo_alignment="center">
+        </div>
+        </form>
+        <p>Already have an account? <a routerLink="/login">Log In</a></p>
+    </div>
+</div>

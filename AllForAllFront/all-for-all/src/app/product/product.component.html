@@ -1,0 +1,144 @@
+<div class="loader" *ngIf="isLoading">
+    <div class="spinner"></div>
+</div>
+<div class="product" *ngIf="!isLoading">
+    <h1 style="margin-bottom: 40px;">{{ product.productName }}</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="{{ product.productPhotoLink }}" width="400px" height="400px" alt="product photo" />
+        </div>
+        <div class="col-md-8">
+            <h4>{{ product.productName }}</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    Manufacturer:
+                </dt>
+                <dd class="col-sm-10">
+                    {{ product.manufacturer.name }}
+                </dd>
+                <dt class="col-sm-2">
+                    Category:
+                </dt>
+                <dd class="col-sm-10">
+                    {{ product.category.name }}
+                </dd>
+                <dt class="col-sm-2">
+                    Country:
+                </dt>
+                <dd class="col-sm-10">
+                    {{ product.country }}
+                </dd>
+                <dt class="col-sm-2">
+                    Created At:
+                </dt>
+                <dd class="col-sm-10">
+                    {{ product.creationDate | date:'medium'}}
+                </dd>
+                <dt class="col-sm-2">
+                    <div class="ratingComments">
+                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(rating, 1)}"></span>
+                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(rating, 2)}"></span>
+                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(rating, 3)}"></span>
+                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(rating, 4)}"></span>
+                        <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(rating, 5)}"></span>
+                        <span> {{ rating | number:'1.1-2' }}</span>
+                    </div>
+                </dt>
+                <dd class="col-sm-10">
+                    <span class="far fa-comment-alt"></span>
+                    <span class="mr-3"> {{ product.feedbacks.length }}</span>
+                    <span *ngIf="product.isVerified" class="fas fa-check-circle text-success"></span>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <h2 style="margin-bottom: 40px; margin-top: 100px;">Comments</h2>
+        <div class="row" *ngIf="product.feedbacks == 0">
+            <h5 style="padding: 15px;">No feedbacks have been added to this product</h5>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <div class="user">
+                                <p>Rate this product</p>
+                            </div>
+                        </h5>
+                        <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+                            <div class="rating">
+                                <label>
+                                    <input type="radio" name="stars" value="1" [(ngModel)]="selectedRating"/>
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="2" [(ngModel)]="selectedRating" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="3" [(ngModel)]="selectedRating" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="4" [(ngModel)]="selectedRating" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="5" [(ngModel)]="selectedRating" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                            </div>
+                            <div class="card mt-3">
+                                <textarea id="feedback" name="feedback" rows="4" cols="50"
+                                    placeholder="Leave your feedback here..." [(ngModel)]="feedbackText" required></textarea>
+                            </div>
+                            <div class="user" style="justify-content: end;">
+                                <button type="submit" class="btn btn-primary mt-3"
+                                    [disabled]="!f.valid">Publish</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" *ngIf="product.feedbacks != 0">
+            <div class="col-md-9" *ngFor="let item of product.feedbacks">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <div class="user">
+                                <img id="userImg" src="{{ item.user?.userPhotoLink }}" class="card-img-top mr-3"
+                                    alt="user photo">
+                                <p>{{ item.user?.username }} </p>
+                            </div>
+                            <p> {{ item.feedbackDate | date:'medium'}} </p>
+                        </h5>
+                        <div class="ratingComments">
+                            <span class="fa fa-star" [ngStyle]="{'color': getStarColor(item.rating, 1)}"></span>
+                            <span class="fa fa-star" [ngStyle]="{'color': getStarColor(item.rating, 2)}"></span>
+                            <span class="fa fa-star" [ngStyle]="{'color': getStarColor(item.rating, 3)}"></span>
+                            <span class="fa fa-star" [ngStyle]="{'color': getStarColor(item.rating, 4)}"></span>
+                            <span class="fa fa-star" [ngStyle]="{'color': getStarColor(item.rating, 5)}"></span>
+                            <span> {{ item.rating | number:'1.1-2' }}</span>
+                        </div>
+                        <div class="card mt-3">
+                            <div class="card-text">{{ item.comment }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

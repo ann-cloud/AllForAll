@@ -1,0 +1,355 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\controllers\\manufacturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\controllers\\manufacturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\implementation\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\implementation\\feedbackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\implementation\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\implementation\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\allforall.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\allforall.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\helpers\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\helpers\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\dto\\user\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\dto\\user\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DFA4162-67E0-41AA-BE73-E73A79B8017A}|DataAccess\\DataAccess.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DFA4162-67E0-41AA-BE73-E73A79B8017A}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\helpers\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\helpers\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\implementation\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\implementation\\manufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\allforall\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A017ED59-C789-44AC-8D7D-1388C9CC6C21}|AllForAll\\AllForAll.csproj|solutionrelative:allforall\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\roman\\downloads\\allforall\\allforall\\businesslogic\\helpers\\googlejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB5D5A4-AD8D-4BB7-8AD2-EF34E8B841DA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\helpers\\googlejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\ProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Implementation\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\ProductService.cs",
+              "RelativeToolTip": "BusinessLogic\\Implementation\\ProductService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:16:36.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManufacturersController.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\ManufacturersController.cs",
+              "RelativeDocumentMoniker": "AllForAll\\Controllers\\ManufacturersController.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\ManufacturersController.cs",
+              "RelativeToolTip": "AllForAll\\Controllers\\ManufacturersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:12:52.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\UserService.cs",
+              "RelativeToolTip": "BusinessLogic\\Implementation\\UserService.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAADgv50AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:32:06.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AllForAll\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AllForAll\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAAwPkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:56:17.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRolesController.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\UserRolesController.cs",
+              "RelativeDocumentMoniker": "AllForAll\\Controllers\\UserRolesController.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\UserRolesController.cs",
+              "RelativeToolTip": "AllForAll\\Controllers\\UserRolesController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:37:57.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AllForAll\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "AllForAll\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:38:00.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "AllForAll\\Controllers\\FeedbackController.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "AllForAll\\Controllers\\FeedbackController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwD4AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:33:36.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "AllForAll\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "AllForAll\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwC8AAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:57:53.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManufacturerService.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\ManufacturerService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Implementation\\ManufacturerService.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\ManufacturerService.cs",
+              "RelativeToolTip": "BusinessLogic\\Implementation\\ManufacturerService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:37:42.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeedbackService.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\FeedbackService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Implementation\\FeedbackService.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\FeedbackService.cs",
+              "RelativeToolTip": "BusinessLogic\\Implementation\\FeedbackService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:37:47.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "BusinessLogic\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAhwBYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:42:44.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Program.cs",
+              "RelativeDocumentMoniker": "AllForAll\\Program.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\Program.cs",
+              "RelativeToolTip": "AllForAll\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:07:19.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\PhotoService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Implementation\\PhotoService.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Implementation\\PhotoService.cs",
+              "RelativeToolTip": "BusinessLogic\\Implementation\\PhotoService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:08:48.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllForAll.http",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\AllForAll.http",
+              "RelativeDocumentMoniker": "AllForAll\\AllForAll.http",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\AllForAll.http",
+              "RelativeToolTip": "AllForAll\\AllForAll.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-14T19:13:28.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserLoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Dto\\User\\UserLoginRequestDto.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Dto\\User\\UserLoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Dto\\User\\UserLoginRequestDto.cs",
+              "RelativeToolTip": "BusinessLogic\\Dto\\User\\UserLoginRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:49:51.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JWTSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Helpers\\JWTSettings.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Helpers\\JWTSettings.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Helpers\\JWTSettings.cs",
+              "RelativeToolTip": "BusinessLogic\\Helpers\\JWTSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:37:55.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\DataAccess\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\DataAccess\\Models\\User.cs",
+              "RelativeToolTip": "DataAccess\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:32:02.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CloudinarySettings.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Helpers\\CloudinarySettings.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Helpers\\CloudinarySettings.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Helpers\\CloudinarySettings.cs",
+              "RelativeToolTip": "BusinessLogic\\Helpers\\CloudinarySettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:08:45.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\appsettings.json",
+              "RelativeDocumentMoniker": "AllForAll\\appsettings.json",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\AllForAll\\appsettings.json",
+              "RelativeToolTip": "AllForAll\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T19:36:39.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GoogleJwt.cs",
+              "DocumentMoniker": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Helpers\\GoogleJwt.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Helpers\\GoogleJwt.cs",
+              "ToolTip": "C:\\Users\\Roman\\Downloads\\AllForAll\\AllForAll\\BusinessLogic\\Helpers\\GoogleJwt.cs",
+              "RelativeToolTip": "BusinessLogic\\Helpers\\GoogleJwt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T19:36:30.322Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

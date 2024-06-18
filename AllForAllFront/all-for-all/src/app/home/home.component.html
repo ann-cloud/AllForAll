@@ -1,0 +1,82 @@
+<div class="loader" *ngIf="isLoading">
+    <div class="spinner"></div>
+</div>
+<div class="home" *ngIf="!isLoading">
+    <h1 style="margin-bottom: 40px;">Popular Now</h1>
+    <div class="container">
+        <div class="scrollable-row">
+            <div class="card small-card" *ngFor="let item of popularManufacturers" [routerLink]="['/manufacturers', item.manufacturerId]">
+                <img [src]="item.manufacturerPhotoLink" class="card-img-top" alt="product photo">
+                <div class="card-body">
+                    <!-- Item title with verification icon -->
+                    <h5 class="card-title">
+                        {{ item.name }} 
+                    </h5>
+                    <!-- Manufacturer -->
+                    <p class="card-text">{{ item.manufacturer }}</p>
+                    <!-- Star rating -->
+                    <!-- <div class="card-title">
+                        <div class="ratingComments">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div> -->
+                    <!-- Comment icon -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 style="margin-bottom: 40px; margin-top: 100px;">Most Talked About</h2>
+    <div class="container">
+        <div class="scrollable-row">
+            <div class="card" *ngFor="let item of popularProducts" [routerLink]="['/products', item.productId]">
+                <img [src]="item.productPhotoLink" class="card-img-top" alt="product photo">
+                <div class="card-body">
+                    <!-- Item title with verification icon -->
+                    <h5 class="card-title">
+                        <span class="product-name">{{ item.productName }}</span> 
+                        <span class="fas fa-check-circle text-success" *ngIf="item.isVerified"></span>
+                    </h5>
+                    <!-- Manufacturer -->
+                    <p class="card-text">{{ item.country }}</p>
+                    <!-- Star rating -->
+                    <div class="card-title">
+                        <div class="ratingComments">
+                            <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 1)}"></span>
+                            <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 2)}"></span>
+                            <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 3)}"></span>
+                            <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 4)}"></span>
+                            <span class="fa fa-star checked" [ngStyle]="{'color': getStarColor(countRating(item.feedbacks), 5)}"></span>
+                            <span> {{ countRating(item.feedbacks) | number:'1.1-2' }}</span>
+                        </div>
+                        <div class="col-sm-2">
+                            <span class="far fa-comment-alt mr-2"></span>
+                            <span> {{ item.feedbacks.length }}</span>
+                        </div>
+                    </div>
+                    <!-- Comment icon -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 style="margin-bottom: 40px; margin-top: 100px;">Popular Categories</h2>
+    <div class="container">
+        <div class="scrollable-row">
+            <div class="card small-card" *ngFor="let item of popularCategories" [routerLink]="['/categories', item.categoryId]">
+                <img [src]="item.categoryPhotoLink" class="card-img-top" alt="product photo">
+                <div class="card-body">
+                    <!-- Item title with verification icon -->
+                    <h5 class="card-title">
+                        {{ item.name }} 
+                        <span class="fas fa-arrow-right text-success"></span>
+                    </h5>
+                    <!-- Manufacturer -->
+                    <p class="card-text">{{ item.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

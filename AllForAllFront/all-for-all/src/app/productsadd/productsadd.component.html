@@ -1,0 +1,34 @@
+<div class="productsadd">
+    <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <div class="form-group">
+            <label for="productName">ProductName</label>
+            <input type="text" class="form-control" id="productName" placeholder="Enter ProductName" [(ngModel)]="productName" name="productName" required>
+        </div>
+        <div class="form-group">
+            <label for="country">Country</label>
+            <input type="text" class="form-control" id="country" placeholder="Enter Country" name="country" required [(ngModel)]="country">
+        </div>
+        <div class="form-group">
+            <label class="label_addproduct">Photo</label>
+            <input id="file_upload_1" class="input_file" type="file" accept="image/*" (change)="onFileChange($event)">
+        </div>
+        <div class="form-group">
+            <label for="manufacturer">Manufacturer</label>
+            <select class="form-control" id="manufacturer" name="manufacturer" required [(ngModel)]="selectedManufacturer">
+              <option value="" disabled selected>Select Manufacturer</option>
+              <option *ngFor="let manufacturer of manufacturers" [value]="manufacturer.id">{{ manufacturer.name }}</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="category">Category</label>
+            <select class="form-control" id="category" name="category"  required [(ngModel)]="selectedCategory" >
+              <option value="" disabled selected>Select Category</option>
+              <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+            </select>
+          </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+    </form>
+</div>

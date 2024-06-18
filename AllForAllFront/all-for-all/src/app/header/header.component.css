@@ -1,0 +1,46 @@
+nav
+{
+    background-color: #2C3E50 !important;
+}
+
+.modal {
+    background-color: rgba(0,0,0,0.4);
+    display: block;
+}
+
+.modal-dialog {
+    max-width: 900px;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-content {
+    border-radius: 5px;
+}
+
+.col {
+    background-color: #ECF0F1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.col > h4 {
+    color: #3498DB;
+    margin-bottom: 40px;
+}
+.nav-user {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    float: left; 
+    margin-left: 10px; 
+    vertical-align: middle; /* Додано для вирівнювання по вертикалі */
+}
+
+.nav-user-text {
+    display: inline-block;
+    vertical-align: middle; /* Зберігаємо вирівнювання тексту по вертикалі */
+}

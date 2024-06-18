@@ -1,0 +1,46 @@
+
+.productsadd {
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px; /* Add some padding for better visual */
+    background-color: #f9f9f9; /* Light gray background color */
+    border-radius: 10px; /* Add some border radius for rounded corners */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn {
+    width: 100%;
+}
+.btn:hover {
+    background-color: #218838; /* Darker green color on hover */
+}
+
+select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23333" d="M7 10l5 5 5-5z"/></svg>'); /* Add your arrow icon */
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

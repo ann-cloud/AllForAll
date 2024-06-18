@@ -1,0 +1,36 @@
+.imgContainer {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/backgroundAuth.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.formContainer {
+    background-color: #ECF0F1;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.form-group > label {
+    font-weight: 500;
+}
+
+.btn {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+}
+.error_message {
+    color: red;
+    font-size: 12px;
+}
